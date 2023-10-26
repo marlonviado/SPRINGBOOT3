@@ -1,0 +1,24 @@
+package com.marlonviado.main;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		String header = "firstName,lastName";
+		
+		String isUp = header.next()
+		        .chars()
+		        .filter(Character::isUpperCase)
+		        .collect(StringBuilder::new, // supplier
+		                StringBuilder::appendCodePoint, // accumulator
+		                StringBuilder::append) // combiner
+		        .toString();
+		System.out.println("The uppercase characters are " + isUp);
+		
+		//for(int i=0; i<header.length(); i++) {
+		//	if(header.charAt(i).)
+		//}
+		
+	}
+
+}

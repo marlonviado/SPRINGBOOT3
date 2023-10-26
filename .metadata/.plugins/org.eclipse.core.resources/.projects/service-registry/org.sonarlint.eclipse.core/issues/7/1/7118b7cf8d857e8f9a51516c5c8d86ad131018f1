@@ -1,0 +1,7 @@
+
+¶
+java:S1186	"ЂAdd a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(лЯ Т8дшЌ«1HRRCRITICALZ
+CODE_SMELL
+w
+java:S6207	"ERemove this redundant constructor which is the same as a default one.(лЯ Т8дшЌ«1HTRMAJORZ
+CODE_SMELL
